@@ -48,3 +48,22 @@ The application can be run locally, in Docker, and is deployed serverlessly usin
 ├── Dockerfile              # Docker container configuration
 ├── cloudrun-deploy.md      # GCP deployment instructions
 ├── cloudrun-service.yaml   #  GCP Cloud Run YAML config
+
+
+🛠️ Installation (Local)
+
+# 1. Clone the repo
+git clone https://github.com/yourusername/visa-consultant-chatbot.git
+cd visa-consultant-chatbot
+
+# 2. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run locally
+python app.py
+
+
