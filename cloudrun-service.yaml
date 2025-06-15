@@ -41,7 +41,7 @@ spec:
           containerPort: 8501
         env:
         - name: GROQ_API_KEY
-          value: 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
+          value: 
         resources:
           limits:
             cpu: 1000m
