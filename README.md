@@ -47,4 +47,4 @@ The application can be run locally, in Docker, and is deployed serverlessly usin
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile              # Docker container configuration
 ├── cloudrun-deploy.md      # GCP deployment instructions
-├── cloudrun-service.yaml   # (Optional) GCP Cloud Run YAML config
+├── cloudrun-service.yaml   #  GCP Cloud Run YAML config
